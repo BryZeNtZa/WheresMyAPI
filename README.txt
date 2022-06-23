@@ -85,11 +85,11 @@ See the AirBnB coding standards here: https://github.com/airbnb/javascript
   > npx eslint --init ( You can also run this command directly using '> npm init @eslint/config')
   Answer all the configs questions and choose airbnb as you coding style guide and JSON as the configs format
   After this step you must be able to see a new file created: .eslintrc.json
-  
+
   In case npx eslint --init command does not prompt you to choose a coding standard (so that you can choose airbnb),
   then install it manually this way:
   > npx install-peerdeps --dev eslint-config-airbnb
-  
+
 - you can now do:
     > npx eslint ./src/*
     to analyze the code under the ./src directory
@@ -124,3 +124,12 @@ We are going to configure Prettier to have upper hand on ESlint
 
 https://blog.logrocket.com/how-to-set-up-node-typescript-express/
 https://www.typescriptlang.org/docs/handbook/modules.html
+
+
+# DATABASE Access
+-----------------
+
+# Install TypeORM, reflect-metadata, and MysQL2
+> npm install typeorm --save
+> npm install reflect-metadata --save
+> npm install mysql2 --save
